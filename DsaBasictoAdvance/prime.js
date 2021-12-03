@@ -1,12 +1,8 @@
-var input = `4
-1
-2
-3
-4`;
+var input = `7`;
 var input=input.split("\n");
-var t=+input[0];
-for (let i = 0; i <t; i++) {
-    var n=input[i+1].split(" ").map(Number)
+// var t=+input[0];
+// for (let i = 0; i <t; i++) {
+    var n=+input[0]
 
         var count=0;
        if (n == 1) {
@@ -30,4 +26,4 @@ for (let i = 0; i <t; i++) {
     
     
    
-}}
+}
