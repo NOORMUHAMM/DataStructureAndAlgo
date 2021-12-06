@@ -1,5 +1,5 @@
 var n = 8;
-var arr = [1,3, 5,7, 2,6];
+var arr = [1,3,5,7,2,6];
 // arr.sort((a,b)=>a-b)
 var sum = (n * (n +1)) / 2;
 for (let i = 0; i < arr.length; i++) {
